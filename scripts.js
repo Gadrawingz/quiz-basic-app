@@ -1,4 +1,4 @@
-
+No
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
@@ -120,8 +120,8 @@ const questions = [
     {
         question: '8 * 2= ?',
         answers: [
-            {text: '16', correct: false},
-            {text: '8', correct: true}
+            {text: '16', correct: true},
+            {text: '8', correct: false}
         ]
     }
 ]
